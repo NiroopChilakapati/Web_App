@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/feedback";
+const API_URL = "https://web-app-q19o.onrender.com/api/feedback";
 
 export const submitFeedback = async (feedbackData) => {
   const token = localStorage.getItem("token");

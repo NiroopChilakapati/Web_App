@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/orders";
+const API_URL = "https://web-app-q19o.onrender.com/api/orders";
 
 export const placeOrder = async (orderData) => {
   const token = localStorage.getItem("token");

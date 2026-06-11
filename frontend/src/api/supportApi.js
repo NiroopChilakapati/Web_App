@@ -1,5 +1,5 @@
-const API_URL = "http://localhost:5000/api/support";
-const ADMIN_API_URL = "http://localhost:5000/api/admin/support";
+const API_URL = "https://web-app-q19o.onrender.com/api/support";
+const ADMIN_API_URL = "https://web-app-q19o.onrender.com/api/admin/support";
 
 export const submitSupportTicket = async (ticketData) => {
   const token = localStorage.getItem("token");

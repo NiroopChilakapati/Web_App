@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/upload";
+const API_URL = "https://web-app-q19o.onrender.com/api/upload";
 
 export const uploadFiles = async (files) => {
   const formData = new FormData();

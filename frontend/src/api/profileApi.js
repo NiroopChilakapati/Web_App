@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/profile";
+const API_URL = "https://web-app-q19o.onrender.com/api/profile";
 
 export const getMyProfile = async () => {
   const token = localStorage.getItem("token");

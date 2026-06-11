@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/admin";
+const API_URL = "https://web-app-q19o.onrender.com/api/admin";
 
 export const getAllOrders = async () => {
   const token = localStorage.getItem("token");
